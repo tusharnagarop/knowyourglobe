@@ -15,6 +15,10 @@
 <link rel="stylesheet" type="text/css" href="css/globe.css">
 <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+	rel="stylesheet">
 <script src="js/lightbox-plus-jquery.min.js">
 
 </script>
@@ -22,6 +26,39 @@
 
 <script> src="https://kit.fontawesome.com/a076d05399.js"  </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+<style>
+	.grid-layout{
+		width: 90%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 20px;
+	}
+	.responsive{
+		
+		text-align: center;
+		font-size: 20px;
+		font-family: 'Poppins', sans-serif;
+		background-color: #248277;
+		color: white;
+	}
+	.responsive:hover{
+		transform: scale(1.04);
+		transition: ease 0.6s;
+	}
+	.responsive img{
+		width:400px;
+		height: 300px;
+		
+	}
+	.heading{
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+		margin-top: 50px;
+		font-size: 30px;
+
+	}
+</style>
 
 
 </head>
@@ -82,7 +119,7 @@ color: #f9f9f9"> Rome The World With Us</p>
 
 
 
-	
+<div class="grid-layout">
 <div class="responsive">
 	<div class=" anime img1">
 <a href="https://www.mediafire.com/convkey/dee5/3yuxm1h59xpe6rd6g.jpg" 
@@ -185,6 +222,7 @@ data-lightbox="mygallery"><img  src="https://www.mediafire.com/convkey/f1a7/wuzw
 <div class=" anime img12">
 	<a href="https://www.mediafire.com/convkey/dafa/25ykjnbg2a3eugf6g.jpg" data-lightbox="mygallery"><img src="https://www.mediafire.com/convkey/ec26/khqtfdm5ssf6o3k6g.jpg" border="0" alt="Phillipines" /></a>
 		<div class="des"><p>Phillipines</p></div>
+</div>
 </div>
 </div>
 
