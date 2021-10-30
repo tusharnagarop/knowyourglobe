@@ -7,6 +7,7 @@
 
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
 		<link
@@ -33,22 +34,31 @@
 
 
 	<body>
-
-		<nav>
-			<input type="checkbox" id="check">
-
-			<label for="check" class="checkbtn">
-				<i class="fa fa-bars fafabars"></i>
-			</label>
-			<label class="logo">KYG</label>
-			<ul>
-				<li> <a href="globe.html" class="active"><i class="fa fa-fw fa-home"></i>Home</a></li>
-				<li><a href="#about"><i class="fa fa-fw fa-user"> </i>About</a></li>
-				<li><a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a> </li>
-				<li><a> <i class="fa fa-fw fa-wrench"></i>Services</a> </li>
-			</ul>
-		</nav>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Know Your Globe</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="globe.html" class="nav-link active fa fa-fw fa-home" aria-current="page" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fa fa-fw fa-user" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fa fa-fw fa-envelope" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fa fa-fw fa-wrench" href="#Services">Services</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+		
 		<a href="" target="_blank"><img class="img_" style="position:relative; top:0; left:0; width:100%; "
 				src="https://www.mediafire.com/convkey/c4c8/27x0w92bd84llbl6g.jpg" border="0" alt="background" /></a>
 
@@ -60,7 +70,7 @@
 
 
 
-		<h2>Know Your <span style="color:#f7be16; "> </span> </h2>
+		<h2>Know Your Globe <span style="color:#f7be16; "> </span> </h2>
 		<p id="rome"  style="position: absolute; display: block top: 300; left: 505;
 font-size: 20px;
 color:white;
@@ -92,157 +102,97 @@ color: black"> Rome The World With Us</p>
 
 
 
+<div class="card responsive" style="width: 18rem;">
+  <img src="https://images.unsplash.com/photo-1548013146-72479768bada?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80" class="card-img-top img-fluid myimg" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">India</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://images.unsplash.com/photo-1548013146-72479768bada?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80" target="_blank" class="btn btn-primary">View Photo</a>
+  </div>
+</div>
 
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/1016/331hfagoalv3iil6g.jpg" class="card-img-top" alt="South Africa">
+  <div class="card-body">
+    <h5 class="card-title">South Africa</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/1016/331hfagoalv3iil6g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/3eed/mfsd0q5g5gr7ahr6g.jpg" class="card-img-top" alt="Greece">
+  <div class="card-body">
+    <h5 class="card-title">Greece</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/3eed/mfsd0q5g5gr7ahr6g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+</div> 
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/cfb5/kuaztqyi7u6qw026g.jpg" class="card-img-top" alt="Thailand">
+  <div class="card-body">
+    <h5 class="card-title">Thailand</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/cfb5/kuaztqyi7u6qw026g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/bf1b/mkr3g86lskkh2mu6g.jpg" class="card-img-top" alt="Turkey">
+  <div class="card-body">
+    <h5 class="card-title">Turkey</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/bf1b/mkr3g86lskkh2mu6g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/46dd/nvxhpv54uchdixw6g.jpg" class="card-img-top" alt="USA">
+  <div class="card-body">
+    <h5 class="card-title">USA</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/46dd/nvxhpv54uchdixw6g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/e0aa/7le1ygteok084lq6g.jpg" class="card-img-top" alt="New Zealand">
+  <div class="card-body">
+    <h5 class="card-title">New Zealand</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/e0aa/7le1ygteok084lq6g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/1b51/2hfdagjymkv7ewk6g.jpg" class="card-img-top" alt="Japan">
+  <div class="card-body">
+    <h5 class="card-title">Japan</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/1b51/2hfdagjymkv7ewk6g.jpg" class="btn btn-primary">View Photo</a></a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/a962/iyoz8h9obqncldp6g.jpg" class="card-img-top" alt="Australia">
+  <div class="card-body">
+    <h5 class="card-title">Australia</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/a962/iyoz8h9obqncldp6g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/1114/erviu626jfuzywz6g.jpg" class="card-img-top" alt="Italy">
+  <div class="card-body">
+    <h5 class="card-title">Italy</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/1114/erviu626jfuzywz6g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+  <div class="card" style="width: 18rem;">
+  <img src="https://www.mediafire.com/convkey/dafa/25ykjnbg2a3eugf6g.jpg" class="card-img-top" alt="Phillipines">
+  <div class="card-body">
+    <h5 class="card-title">Phillipines</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.mediafire.com/convkey/dafa/25ykjnbg2a3eugf6g.jpg" class="btn btn-primary">View Photo</a>
+  </div>
+</div>
+</div>
 
-
-		<div class="responsive">
-			<div class=" anime img1">
-				<a href="https://images.unsplash.com/photo-1548013146-72479768bada?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80"
-					data-lightbox="mygallery"><img
-						src="https://images.unsplash.com/photo-1548013146-72479768bada?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80"
-						alt="Spain" /></a>
-
-				<div class="description">
-					<p>India</p>
-				</div>
-			</div>
-		</div>
-
-
-
-
-		<div class="responsive">
-			<div class=" anime img2">
-				<a href="https://www.mediafire.com/convkey/0519/xwysvfe88ljbfm16g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/1016/331hfagoalv3iil6g.jpg" border="0"
-						alt="South Africa" /></a>
-				<div class="des">
-					<p>South Africa </p>
-				</div>
-			</div>
-		</div>
-
-		<div class="responsive">
-			<div class=" anime img3">
-				<a href="https://www.mediafire.com/convkey/3eed/mfsd0q5g5gr7ahr6g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/7036/k60rdi3qo0i0eqi6g.jpg" border="0"
-						alt="Greece" /></a>
-				<div class="des">
-					<p>Greece</p>
-				</div>
-			</div>
-		</div>
-
-
-
-
-
-		<div class="responsive">
-			<div class="  anime img4">
-				<a href="https://www.mediafire.com/convkey/cfb5/kuaztqyi7u6qw026g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/b520/48ch733b2yquagu6g.jpg" border="0"
-						alt="Thailand" /></a>
-				<div class="des">
-					<p>Thailand</p>
-				</div>
-			</div>
-		</div>
-
-
-
-		<div class="responsive">
-			<div class=" anime img5">
-				<a href="https://www.mediafire.com/convkey/92ad/cxctzbls5q8zr9h6g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/be42/gxwyb8n2v05ndvb6g.jpg" border="0" alt="India" /></a>
-				<div class="des">
-					<p>India</p>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="responsive">
-			<div class=" anime img6">
-				<a href="https://www.mediafire.com/convkey/bf1b/mkr3g86lskkh2mu6g.jpg" data-lightbox="mygallery"> <img
-						src="https://www.mediafire.com/convkey/41ea/jif2iib4al1pfio6g.jpg" border="0"
-						alt="Turkey" /></a>
-				<div class="des">
-					<p>Turkey</p>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="responsive">
-			<div class=" anime img7">
-				<a href="https://www.mediafire.com/convkey/46dd/nvxhpv54uchdixw6g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/044c/ux01ima0om8gz9r6g.jpg" border="0"
-						alt="blue lagoon , iceland" /></a>
-				<div class="des">
-					<p>Usa</p>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="responsive">
-			<div class=" anime img8">
-				<a href="https://www.mediafire.com/convkey/e0aa/7le1ygteok084lq6g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/2036/ju1u57kn88ty1mk6g.jpg" border="0"
-						alt="New Zealand" /></a>
-				<div class="des">
-					<p>New Zealand</p>
-				</div>
-			</div>
-		</div>
-
-
-
-		<div class="responsive">
-			<div class=" anime img9">
-				<a href="https://www.mediafire.com/convkey/1b51/2hfdagjymkv7ewk6g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/01a4/yxmgxmbyq98wdoz6g.jpg" border="0" alt="Japan" /></a>
-				<div class="des">
-					<p>Japan</p>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="responsive">
-			<div class=" anime img10">
-				<a href="https://www.mediafire.com/convkey/a962/iyoz8h9obqncldp6g.jpg" data-lightbox="mygallery"> <img
-						src="https://www.mediafire.com/convkey/4277/f54552chojkmgwv6g.jpg" border="0"
-						alt="Australia" /></a>
-				<div class="des">
-					<p>Australia</p>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="responsive">
-			<div class=" anime img11">
-				<a href="https://www.mediafire.com/convkey/1114/erviu626jfuzywz6g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/29a6/dw20rrq9dblcns26g.jpg" border="0" alt="Italy" /></a>
-				<div class="des">
-					<p>Italy</p>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="responsive">
-			<div class=" anime img12">
-				<a href="https://www.mediafire.com/convkey/dafa/25ykjnbg2a3eugf6g.jpg" data-lightbox="mygallery"><img
-						src="https://www.mediafire.com/convkey/ec26/khqtfdm5ssf6o3k6g.jpg" border="0"
-						alt="Phillipines" /></a>
-				<div class="des">
-					<p>Phillipines</p>
-				</div>
-			</div>
-		</div>
-
+		
 
 
 		<div id="about" class="dix">
@@ -272,29 +222,26 @@ color: black"> Rome The World With Us</p>
 				<hr class="hr2">
 				<br><br>
 
-
-				<input class="name" placeholder="Full Name" type="text">
-				<br>
-				<br>
-
-				<input class="name" placeholder="Email" type="Email">
-
-				<br>
-				<br>
-
-				<input class="name" placeholder="Phone Number" type="text">
-				<br>
-				<br>
-
-				<input class="name" placeholder="Message" type="text">
-				<br>
-				<br>
-				<br>
-
-
-
-				<input class="sub" type="Submit"></input><br>
-				<p class="lol"> Submitted Sucessfully</p>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+</div>
+<div class="mb-3">
+  <span class="">Name</span>
+  <input type="text" aria-label="name" class="form-control">
+ 
+</div>
+  <span class="">Mobile Number</span>
+  <input type="text" aria-label="name" class="form-control">
+ 
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<div class="mb-3">
+    <button type="submit" class="btn btn-primary">Submit</button>
+</div>
 
 
 			</div>
@@ -346,7 +293,7 @@ color: black"> Rome The World With Us</p>
 
 		</script>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 	</body>
 
