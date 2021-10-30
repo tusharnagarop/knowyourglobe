@@ -1,0 +1,14 @@
+ul{ 
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+} 
+#rome{
+  display: block;
+}
+ul li a{ 
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  
+}
