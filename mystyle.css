@@ -1,0 +1,30 @@
+.navbar{
+  position: sticky;
+}
+ul{ 
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+} 
+#rome{
+  display: block;
+}
+ul li a{ 
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  
+}
+.card{
+  margin: 10px;
+}
+
+.card::hover{
+  opacity: 60%;
+}
+.myflexcard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
