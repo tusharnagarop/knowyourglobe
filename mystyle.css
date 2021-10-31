@@ -28,3 +28,24 @@ ul li a{
   flex-wrap: wrap;
  
 }
+
+.contactus2div{
+  margin: auto;
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.form-control{
+  border-radius: 4px;
+}
+
+.subcenter{
+  display: flex;
+  width: 280px;
+  justify-content: center;
+ text-align: center;
+ margin: auto;
+}
