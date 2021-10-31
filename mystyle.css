@@ -49,3 +49,12 @@ ul li a{
  text-align: center;
  margin: auto;
 }
+
+.aboutclass{
+  border: 2px solid gray;
+  display: flex;
+  margin: 20px;
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+}
