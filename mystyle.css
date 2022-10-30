@@ -4,6 +4,7 @@
 ul{ 
   display: flex;
   flex-wrap: wrap;
+  display:none;
   list-style: none;
 } 
 #rome{
@@ -31,9 +32,10 @@ ul li a{
 
 .contactus2div{
   margin: auto;
-  width: 350px;
-  margin: 20px;
-  padding: 20px;
+  
+  width: 450px;
+  margin: 22px;
+  padding: 22px;
   border: 2px solid gray;
   border-radius: 10px;
 }
@@ -46,6 +48,7 @@ ul li a{
   display: flex;
   width: 280px;
   justify-content: center;
+  display:none;
  text-align: center;
  margin: auto;
 }
