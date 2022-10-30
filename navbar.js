@@ -65,29 +65,7 @@ const Stake = () => {
     }
   }
 
-  async function getUserInfo (){
-    try{
-      let rpcUrl = values.rpcUrl;
-      let provider_ = new ethers.providers.JsonRpcProvider(rpcUrl);
-      let staking = new ethers.Contract(
-        values.stakingAddress,
-        stakingAbi,
-        provider_
-      );
-      let _wallet = _signer.getAddress();      
-      let _userInfo = await staking.userInfo( poolId, _wallet);
-      console.log ("USER Info: ", _userInfo);
-      setStackingBalance(ethers.utils.formatUnits(_userInfo[0], decimals).toString())
-      setUserInfo(_userInfo);
-      let _timestamp = parseInt(_userInfo[1].toString())* 1000;
-      let _time = new Date(_timestamp);
-      if (_timestamp >0) setTimeLock(_time);
-      else setTimeLock(" Not staked yet");
-    }catch(err){
-      console.log("User error", err);
-    }
-  }
-
+ 
   async function _getBalance (tokenAddress, accountAddress){
     try {
       let rpcUrl = values.rpcUrl;
@@ -112,23 +90,7 @@ const Stake = () => {
     }
   }
 
-  async function getWhiteListAddresses (){
-    try{
-      let rpcUrl = values.rpcUrl;
-      let provider_ = new ethers.providers.JsonRpcProvider(rpcUrl);
-      let staking = new ethers.Contract(
-        values.stakingAddress,
-        stakingAbi,
-        provider_
-      );
-      let _wallet = _signer.getAddress();      
-      let _wlInfo = await staking.whitelistedAddress( poolId, _wallet);
-      console.log ("Whitelist Info: ", _wlInfo);
-      setWalletAddresses(_wlInfo);
-    }catch(err){
-      console.log("User error", err);
-    }
-  }
+  // removed bugs
 
   async function stakeTokens () {
     try{
