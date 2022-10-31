@@ -42,6 +42,8 @@ const Stake = () => {
     fetch();
   }, [_provider, _signer, poolId]);
 
+  
+  //get info function
   async function getPoolInfo (){
     try{
       let rpcUrl = values.rpcUrl;
@@ -91,7 +93,7 @@ const Stake = () => {
   }
 
   // removed bugs
-
+//get stake tokens function
   async function stakeTokens () {
     try{
       let staking = new ethers.Contract(
