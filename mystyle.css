@@ -1,51 +1,49 @@
 body::-webkit-scrollbar {
   width: 1em;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
 
-.navbar{
+.navbar {
   position: sticky;
 }
-ul{ 
+ul {
   display: flex;
   flex-wrap: wrap;
-  display:none;
+  display: none;
   list-style: none;
-} 
-#rome{
+}
+#rome {
   display: block;
 }
-ul li a{ 
+ul li a {
   text-decoration: none;
   margin: 10px;
   padding: 10px;
-  
 }
-.card{
+.card {
   margin: 10px;
 }
 
-.card::hover{
+.card::hover {
   opacity: 60%;
 }
-.myflexcard{
+.myflexcard {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- 
 }
 
-.contactus2div{
+.contactus2div {
   margin: auto;
-  
+
   width: 450px;
   margin: 22px;
   padding: 22px;
@@ -53,31 +51,38 @@ ul li a{
   border-radius: 10px;
 }
 
-.form-control{
+.form-control {
   border-radius: 4px;
 }
 
-.subcenter{
+.subcenter {
   display: flex;
   width: 280px;
   justify-content: center;
-  display:none;
- text-align: center;
- margin: auto;
+  display: none;
+  text-align: center;
+  margin: auto;
 }
 
-.aboutclass{
+.aboutclass {
   border: 2px solid gray;
   display: flex;
   margin: 20px;
-  padding:20px;
+  padding: 20px;
   justify-content: center;
   align-items: center;
 }
 
-.card-body{
+.card-body {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+  }
 }
